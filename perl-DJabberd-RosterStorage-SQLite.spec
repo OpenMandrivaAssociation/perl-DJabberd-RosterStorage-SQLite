@@ -2,7 +2,7 @@
 
 Name:		perl-%{realname}
 Version:    1.00
-Release:    %mkrel 1
+Release:    %mkrel 2
 License:	GPL or Artistic
 Group:		Development/Perl
 Summary:    DJabber plugin to store your jabber roster in SQLite
@@ -13,6 +13,7 @@ BuildRequires:	perl-devel
 BuildRequires:	perl-DJabberd
 # for testing, maybe one day
 # BuildRequires: perl-DBD-SQLite 
+Requires:       perl-DBD-SQLite
 BuildArch: noarch
 
 %description
@@ -40,7 +41,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(-,root,root)
 
-%{perl_vendorlib}/*
+%{perl_vendorlib}/DJabberd/
 %{_mandir}/man3/*
 
 
