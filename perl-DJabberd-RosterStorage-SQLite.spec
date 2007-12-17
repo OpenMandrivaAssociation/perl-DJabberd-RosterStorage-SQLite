@@ -8,7 +8,6 @@ Group:		Development/Perl
 Summary:    DJabber plugin to store your jabber roster in SQLite
 Source0:    http://search.cpan.org/CPAN/authors/id/B/BR/BRADFITZ/DJabberd-RosterStorage-SQLite-%{version}.tar.bz2
 Url:		http://search.cpan.org/dist/%{realname}
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	perl-devel
 BuildRequires:	perl-DJabberd
 # for testing, maybe one day
