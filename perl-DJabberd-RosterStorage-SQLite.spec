@@ -10,7 +10,7 @@ Source0:	http://search.cpan.org/CPAN/authors/id/B/BR/BRADFITZ/DJabberd-RosterSto
 # patch submitted upstream : http://lists.danga.com/pipermail/djabberd/2007-September/000401.html
 # not applied however, i have been using it since 1 year
 Patch0:		DJabberd-RosterStorage-SQLite-fixutf8.diff
-Url:		http://search.cpan.org/dist/%{realname}
+Url:		https://search.cpan.org/dist/%{realname}
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(DJabberd)
